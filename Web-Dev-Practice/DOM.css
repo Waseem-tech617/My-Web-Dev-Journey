@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+                                  /* Project NO : 1 BUTTON CLICK ON OFF */
+
+.OFF{
+    height: 100px;
+    width: 100px;
+    color:red;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-size: larger;
+}
+.ON{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    color:red;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-size: larger;
+}
