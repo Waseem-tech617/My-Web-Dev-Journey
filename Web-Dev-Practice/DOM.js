@@ -17,10 +17,15 @@ input.addEventListener("change", function (val) {
 
 
 // Project NO : 3 USE  OF CHANGE EVENTLISNER.
-let h3=document.querySelector("h3");
-let select=document.querySelector("select");
-select.addEventListener("change",function(dets){
-h3.textContent=`Fruits Selected Is : ${dets.target.value}`;
+let h3 = document.querySelector("h3");
+let select = document.querySelector("select");
+select.addEventListener("change", function (dets) {
+    h3.textContent = `Fruits Selected Is : ${dets.target.value}`;
 });
 
 
+// Project NO : 4 USE  KEYDOWN EVENTLISNER.
+let h1 = document.querySelector(" h1");
+window.addEventListener("keydown", function (val) {
+    h1.textContent = `${val.key}`;
+});
