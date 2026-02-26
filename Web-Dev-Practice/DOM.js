@@ -11,6 +11,16 @@ button.addEventListener("click", function () {
 
 // Project NO : 2 USE  OF INPUT EVENTLISNER.
 let input = document.querySelector("input");
-input.addEventListener("input", function () {
-    console.dir(input.value);
+input.addEventListener("change", function (val) {
+    console.log(val);
 });
+
+
+// Project NO : 3 USE  OF CHANGE EVENTLISNER.
+let h3=document.querySelector("h3");
+let select=document.querySelector("select");
+select.addEventListener("change",function(dets){
+h3.textContent=`Fruits Selected Is : ${dets.target.value}`;
+});
+
+
