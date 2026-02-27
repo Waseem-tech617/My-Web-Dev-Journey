@@ -11,7 +11,7 @@ body {
 
 }
 
-                              /* Project NO : 1 BUTTON CLICK ON OFF */
+/* Project NO : 1 BUTTON CLICK ON OFF */
 /* 
 #OFF {
     height: 100px;
@@ -22,7 +22,6 @@ body {
     top: 30%;
     font-size: larger;
 }
-
 .ON {
     height: 100px;
     width: 100px;
@@ -34,10 +33,9 @@ body {
     font-size: larger;
 } */
 
- 
 
-                             /* Project NO : 4 USE  KEYDOWN EVENTLISNER. */
 
+/* Project NO : 4 USE  KEYDOWN EVENTLISNER. */
 /* #box{
     display: flex;
     width: 100%;
@@ -52,4 +50,30 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     user-select: none;
     font-weight: 300;
+} */
+
+
+
+/* 
+Project NO : 5 USE  OF CLICK AND CHANGE EVENTLISTENER.
+#file{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input{
+    display: none;
+    
+}
+#btn{
+    text-transform: capitalize;
+    height: 60px;
+    min-width: 120px; 
+    background-color: aqua;
+    border:none;
+    font-weight: 500;
+    font-size: large;
 } */
