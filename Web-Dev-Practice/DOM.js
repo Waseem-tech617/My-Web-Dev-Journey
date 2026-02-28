@@ -47,3 +47,38 @@ if(file){
     btn.textContent=file.name;
 }
 });
+
+
+
+// Project NO : 6 USE  OF SUBMIT EVENTLISTENER. IF WE SUBMIT FORM THEN APEAR NEW CARD WITH FORM VALUES .
+let form = document.querySelector("form");
+let inputs = document.querySelectorAll("input");
+let main = document.querySelector("#main");
+
+form.addEventListener("submit", function (val) {
+    val.preventDefault();
+    let card = document.createElement("div");
+    card.classList.add("card");
+
+    let profile = document.createElement("div");
+    profile.classList.add("profile");
+
+    let image = document.createElement("img");
+    image.setAttribute("src", inputs[3].value);
+
+    let h3 = document.createElement("h3");
+    h3.textContent = inputs[0].value;
+
+    let p = document.createElement("p");
+    p.textContent = inputs[2].value;
+
+    let h4 = document.createElement("h4");
+    h4.textContent = inputs[1].value;
+
+    profile.appendChild(image);
+    card.appendChild(profile);
+    card.appendChild(h3);
+    card.appendChild(p);
+    card.appendChild(h4);
+    main.appendChild(card);
+});
