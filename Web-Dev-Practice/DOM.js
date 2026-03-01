@@ -82,3 +82,21 @@ form.addEventListener("submit", function (val) {
     card.appendChild(h4);
     main.appendChild(card);
 });
+
+
+
+//  Project NO : 7 USE  OF MOUSEOVER EVENTLISTENER. IF WE MOVE MOUSE  THEN WITH OVER DIV MOVE WITH MOUSE MOVEMENT.
+let box=document.querySelector("#box");
+document.addEventListener("mouseover",function(val){
+box.style.top=val.clientY +"px";
+box.style.left=val.clientX+"px";
+box.style.backgroundColor="red";
+
+});
+
+
+
+// Project NO : 8 USE  OF KEYUP EVENTLISTENER.
+document.addEventListener("keyup", function(val) {
+box.style.backgroundColor="red";
+});
