@@ -86,24 +86,20 @@ form {
     gap: 10px;
     width: 200px;
 }
-
 #main {
     padding: 100px 100px;
 }
-
 .profile {
     height: 50px;
     width: 50px;
     overflow: hidden;
     border-radius: 50px;
 }
-
 .profile img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-
 .card {
     position: relative;
     top: 10px;
@@ -123,4 +119,18 @@ Project NO : 7 USE  OF MOUSEOVER EVENTLISTENER. IF WE MOVE MOUSE  THEN WITH OVER
     width: 200px;
     background-color: yellow;
     
+} */
+
+
+
+
+/* 
+ Project NO : 9 PRACTICE BUBLING CONCET.
+.l{
+    text-decoration: line-through;
+}
+ul{
+    padding: 100px 100px;
+    font-size: large;
+    text-transform: capitalize;
 } */
